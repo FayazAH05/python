@@ -9,7 +9,7 @@ class Television:
         self.__muted = False
         self.__volume = Television.MIN_VOLUME
         self.__channel = Television.MIN_CHANNEL
-        self.__prev_volume = Television.MIN_VOLUME  # To store volume before muting
+        self.__prev_volume = Television.MIN_VOLUME
 
     def power(self):
         self.__status = not self.__status
